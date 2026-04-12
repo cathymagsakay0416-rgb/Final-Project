@@ -34,7 +34,7 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
 ---
 
 ## 🔌 Circuit Diagram
-![Circuit Diagram](https://github.com/your-username/Smart-Flame-and-Gas-System/blob/main/images/circuit_diagram.png)
+![Circuit Diagram](https://github.com/cathymagsakay0416-rgb/Final-Project/diagram.png)
 
 ---
 
