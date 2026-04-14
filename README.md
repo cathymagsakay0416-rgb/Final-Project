@@ -42,7 +42,7 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
 
 ## 🖼️ Project Image
 Below is the actual prototype of the system:
-<h2 align="center">Project Diagram</h2>
+<h2 align="center">Image of the Project</h2>
 <p align="center">
   <img src="Project%20Image.png" alt="Project Diagram" width="600">
 </p>
