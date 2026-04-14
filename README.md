@@ -20,8 +20,8 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
 | :--- | :--- |
 | **Input Devices** | MQ-135 Gas Sensor, Flame Sensor |
 | **Controllers** | Arduino Uno (Logic), ESP32 (Communication) |
-| **Output Devices** | 16×2 I2C LCD, Active Buzzer, LED, High-Torque Servo, DC Fan |
-| **Software** | Arduino IDE, Embedded C/C++, Tinkercad, GitHub |
+| **Output Devices** | 16×2 I2C LCD, Active Buzzer, LED, DC Fan |
+| **Software** | Arduino IDE, Tinkercad, GitHub |
 
 ---
 
