@@ -41,8 +41,8 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
 ---
 
 ## 💻 Code
-- 📄 [View ESP32 SMS Notificationn Code (esp32code.ino)](https://github.com/cathymagsakay0416-rgb/Final-Project/blob/main/esp32code.ino)
-- 📄 [View Arduino Code (projfinal.ino)](https://github.com/cathymagsakay0416-rgb/Final-Project/blob/main/projfinal.ino)
+- 📄 [View ESP32 SMS Notificationn Code](https://github.com/cathymagsakay0416-rgb/Final-Project/blob/main/esp32code.ino)
+- 📄 [View Arduino Code](https://github.com/cathymagsakay0416-rgb/Final-Project/blob/main/projfinal.ino)
 
 ---
 
