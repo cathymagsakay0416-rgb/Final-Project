@@ -13,7 +13,7 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2); 
 SoftwareSerial espSerial(10, 11); 
 
-// System states
+
 enum State {
   SAFE,
   FIRE,
@@ -50,7 +50,7 @@ void setup() {
   pinMode(buzzerPin, OUTPUT);
   pinMode(relayPin, OUTPUT);
   digitalWrite(relayPin, HIGH); 
-  delay(50); // stabilize relay module
+  delay(50); 
 
   Serial.begin(9600);
   espSerial.begin(9600);
@@ -65,7 +65,7 @@ void setup() {
   delay(2000);
   lcd.clear();
 
-  digitalWrite(relayPin, HIGH); // Fan OFF
+  digitalWrite(relayPin, HIGH); 
 
 
   lcd.setCursor(0,0);
@@ -84,7 +84,7 @@ void setup() {
     delay(500);
   }
 
-  gasBaseline = sum / (warmUpTime / 500); // average warm-up readings
+  gasBaseline = sum / (warmUpTime / 500); 
   gasThreshold = gasBaseline + GAS_OFFSET;
 
   lcd.clear();
@@ -155,7 +155,7 @@ void loop() {
         case GAS:
           digitalWrite(ledPin, HIGH);
           digitalWrite(buzzerPin, HIGH);
-          digitalWrite(relayPin, LOW);  // Fan ON
+          digitalWrite(relayPin, LOW);  
 
           lcd.setCursor(0,0);
           lcd.print("GAS DETECTED!");
@@ -171,7 +171,7 @@ void loop() {
         case SAFE:
           digitalWrite(ledPin, LOW);
           digitalWrite(buzzerPin, LOW);
-          digitalWrite(relayPin, HIGH); // Fan OFF
+          digitalWrite(relayPin, HIGH); 
 
           lcd.setCursor(0,0);
           lcd.print("System Safe");
