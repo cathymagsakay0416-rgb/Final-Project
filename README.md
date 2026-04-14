@@ -47,6 +47,12 @@ Below is the actual prototype of the system:
   <img src="Project%20Image.png" alt="Project Diagram" width="600">
 </p>
 
+## 🎥 Project Demonstration
+
+
+https://github.com/user-attachments/assets/006263da-b047-4367-81f8-495e38b57e4f
+
+
 
 ## 💻 Code
 - 📄 [View ESP32 SMS Notificationn Code](https://github.com/cathymagsakay0416-rgb/Final-Project/blob/main/esp32code.ino)
