@@ -41,8 +41,8 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
 ---
 
 ## 💻 Code
-* **[Arduino Uno Main Code](https://github.com/your-username/Smart-Flame-and-Gas-System/blob/main/code/arduino_main.ino):** Controls sensors, local alerts, fan, and servo logic.
-* **[ESP32 SMS Notification Code](https://github.com/your-username/Smart-Flame-and-Gas-System/blob/main/code/esp32_sms_alerts.ino):** Manages Wi-Fi connectivity and the SMS API protocol.
+- 📄 [View ESP32 SMS Notificationn Code (esp32code.ino)](https://github.com/cathymagsakay0416-rgb/Final-Project/blob/main/esp32code.ino)
+- 📄 [View Arduino Code (projfinal.ino)](https://github.com/cathymagsakay0416-rgb/Final-Project/blob/main/projfinal.ino)
 
 ---
 
