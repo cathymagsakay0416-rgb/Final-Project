@@ -5,7 +5,7 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
 
 ---
 
-## 🎯 Objectives
+## Objectives
 * **Real-Time Detection:** Monitor environment for flames and gas leaks (MQ-135).
 * **Audio-Visual Alerts:** Immediate notification via Buzzer and LED.
 * **Automated Mitigation:** Activate an exhaust fan and high-torque servo motor.
@@ -14,7 +14,7 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
 
 ---
 
-## 🛠️ Materials and Components
+## Materials and Components
 
 | Category | Component |
 | :--- | :--- |
@@ -25,7 +25,7 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1.  **Sensing:** The MQ-135 and Flame sensor constantly poll the environment.
 2.  **Processing:** The Arduino Uno evaluates sensor data against predefined thresholds.
 3.  **Local Response:** If a hazard is detected, the Arduino triggers the buzzer, displays the status on the LCD, and activates the DC fan/servo.
@@ -39,6 +39,11 @@ The **Smart Flame and Gas Emergency Response System** is an integrated safety so
   <img src="diagram.png" alt="Project Diagram" width="600">
 </p>
 ---
+
+## 🖼️ Project Image
+Below is the actual prototype of the system:
+
+
 
 ## 💻 Code
 - 📄 [View ESP32 SMS Notificationn Code](https://github.com/cathymagsakay0416-rgb/Final-Project/blob/main/esp32code.ino)
