@@ -10,12 +10,12 @@ const char* apiURL = "https://dashboard.philsms.com/api/v3/sms/send";
 const char* apiToken = "2198|6c95ErZiJavekXXi7AkVJvh0OhBhEM04v3KFqnqqcdf72119";
 
 
-HardwareSerial arduinoSerial(2); // RX2 = GPIO16
+HardwareSerial arduinoSerial(2); 
 
 
 String lastCommand = "";
 unsigned long lastSMSTime = 0;
-const unsigned long smsCooldown = 10000; // 10 seconds
+const unsigned long smsCooldown = 10000; 
 
 unsigned long lastWiFiCheck = 0;
 const unsigned long wifiInterval = 5000;
